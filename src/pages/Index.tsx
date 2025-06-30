@@ -69,9 +69,9 @@ const Index = () => {
 
         <div className="bg-gradient-to-r from-red-600 to-orange-600 rounded-3xl p-12 shadow-2xl max-w-3xl mx-auto mb-16 text-white transform hover:scale-105 transition-transform">
           <div className="text-6xl mb-6">💸</div>
-          <div className="text-xl mb-4 line-through opacity-75">Others Pay 65% Revenue Share</div>
-          <div className="text-5xl font-black mb-4">YOU PAY ONLY 40%</div>
-          <div className="text-2xl font-bold mb-8 text-yellow-300">SAVE 25% FOREVER!</div>
+          <div className="text-xl mb-4 line-through opacity-75">Regular Price: $65/month</div>
+          <div className="text-5xl font-black mb-4">ONLY $39/month</div>
+          <div className="text-2xl font-bold mb-8 text-yellow-300">SAVE 40% FOREVER!</div>
           
           <form onSubmit={handleEarlyAccess} className="flex flex-col sm:flex-row gap-6">
             <Input
@@ -364,7 +364,7 @@ const Index = () => {
             <span className="text-red-600"> RIPPED OFF</span>
           </h2>
           <p className="text-2xl text-center mb-16 text-gray-700 max-w-3xl mx-auto">
-            Everyone else charges 65%. We're giving the first 500 users 40% FOREVER.
+            Everyone else charges $65+. We're giving the first 500 users 40% OFF FOREVER.
           </p>
           
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -378,9 +378,9 @@ const Index = () => {
               </CardHeader>
               <CardContent>
                 <div className="text-center mb-8">
-                  <div className="text-6xl font-black text-gray-600 mb-2">65%</div>
-                  <div className="text-gray-500 text-xl">Revenue Share</div>
-                  <div className="text-red-500 font-bold">You keep only 35%!</div>
+                  <div className="text-6xl font-black text-gray-600 mb-2">$65+</div>
+                  <div className="text-gray-500 text-xl">Per Month</div>
+                  <div className="text-red-500 font-bold">Plus setup fees!</div>
                 </div>
                 <ul className="space-y-4">
                   <li className="flex items-center">
@@ -404,7 +404,7 @@ const Index = () => {
                 EARLY ACCESS ONLY
               </div>
               <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-yellow-400 to-orange-400 text-black px-8 py-3 text-lg font-black rounded-full animate-pulse">
-                SAVE $25,000+/YEAR
+                SAVE $312/YEAR
               </div>
               <CardHeader className="text-center pt-16">
                 <CardTitle className="text-4xl text-red-600 font-black">EARLY ACCESS DEAL</CardTitle>
@@ -412,10 +412,10 @@ const Index = () => {
               </CardHeader>
               <CardContent>
                 <div className="text-center mb-8">
-                  <div className="text-7xl font-black text-red-600 mb-2">40%</div>
-                  <div className="text-red-500 text-2xl font-bold">Revenue Share</div>
-                  <div className="text-green-600 font-black text-xl">You keep 60%!</div>
-                  <div className="text-lg text-green-600 font-bold mt-2">SAVE 25% FOREVER!</div>
+                  <div className="text-7xl font-black text-red-600 mb-2">$39</div>
+                  <div className="text-red-500 text-2xl font-bold">Per Month</div>
+                  <div className="text-green-600 font-black text-xl">40% OFF FOREVER!</div>
+                  <div className="text-lg text-green-600 font-bold mt-2">No setup fees!</div>
                 </div>
                 <ul className="space-y-4">
                   <li className="flex items-center">
@@ -440,7 +440,7 @@ const Index = () => {
                   </li>
                 </ul>
                 <Button className="w-full mt-8 bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 text-xl font-black py-4">
-                  LOCK IN MY 40% RATE NOW
+                  LOCK IN MY $39 RATE NOW
                 </Button>
               </CardContent>
             </Card>
@@ -460,14 +460,14 @@ const Index = () => {
             In 48 hours, this deal disappears FOREVER.
           </p>
           <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
-            Don't be the person watching others make $20K/month while you're still uploading manually.
+            Don't be the person watching others make $20K/month while you're paying $65/month for basic features.
           </p>
           
           <div className="bg-gradient-to-r from-red-600 to-orange-600 rounded-3xl p-12 max-w-2xl mx-auto mb-8">
             <form onSubmit={handleEarlyAccess} className="flex flex-col sm:flex-row gap-6">
               <Input
                 type="email"
-                placeholder="Enter email to secure 40% rate"
+                placeholder="Enter email to secure $39/month rate"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="flex-1 h-16 text-xl bg-white text-black placeholder:text-gray-600 border-0 font-bold"
